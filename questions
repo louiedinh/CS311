@@ -1,0 +1,23 @@
+# Write a function, insertR, that given an target, an obj and a list 
+# inserts the element right after the first target
+# e.g (insertR 3 "a" '(1 2 3 4 3 2 1)) #=> '(1 2 3 "a" 4 3 2 1)
+
+# Write a function, insertL, that given an target, an obj and a list 
+# inserts the element left after the first target
+# e.g (insertL 3 "a" '(1 2 3 4 3 2 1)) #=> '(1 2 "a" 3 4 3 2 1)
+
+# Write a function, subst, that given an old and a new object, replaces
+# the first old objects with  the new object
+# e.g (subst 3 4 '(1 2 3 4 3 2 1)) #=> '(1 2 4 4 3 2 1)
+
+# Write a function, multi-rember, that given a target removes all copies
+# e.g (multi-rember 3 '(1 2 3 4 3 2 1) #=> '(1 2 4 2 1)
+
+# Now write multi-insertR and multi-insertL multisubst which does the same thing except for all 
+# members!
+# e.g (multi-insertR 3 "a" (1 2 3 4 3 2 1)) #=> '(1 2 3 "a" 4 3 "a" 2 1)
+# e.g (multi-insertL 3 "a" (1 2 3 4 3 2 1)) #=> '(1 2 "a" 3 4 3 "a" 2 1)
+# e.g (multi-subst 3 4 (1 2 3 4 3 2 1)) #=> '(1 2 4 4 4 2 1)
+
+# Notice anything? 
+
