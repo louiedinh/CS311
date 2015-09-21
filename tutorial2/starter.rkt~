@@ -1,0 +1,10 @@
+#lang plai
+
+(define-type WAE
+  [num (n number?)]
+  [add (lhs WAE?) (rhs WAE?)]
+  [sub (lhs WAE?) (rhs WAE?)]
+  [with (name symbol?) (named-expr WAE?) (body WAE?)]
+  [id (name symbol?)]
+  )
+
